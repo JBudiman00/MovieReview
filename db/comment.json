@@ -1,0 +1,91 @@
+[
+    {
+    "id": 1,
+    "movie_id": 6,
+    "comment": "This movie was amazing! I loved the non-linear storytelling and the great characters.",
+    "timestamp": "4-15-2023"
+    },
+    {
+    "id": 2,
+    "movie_id": 2,
+    "comment": "I thought this movie was okay, but it didn't live up to the hype for me.",
+    "timestamp": "8-3-2021"
+    },
+    {
+    "id": 3,
+    "movie_id": 14,
+    "comment": "Inception is one of my all-time favorite movies. The visuals and music are incredible.",
+    "timestamp": "6-20-2022"
+    },
+    {
+    "id": 4,
+    "movie_id": 9,
+    "comment": "The Matrix is a classic. I loved the action and the philosophical themes.",
+    "timestamp": "11-17-2021"
+    },
+    {
+    "id": 5,
+    "movie_id": 17,
+    "comment": "Jaws is a classic thriller. I was on the edge of my seat the whole time.",
+    "timestamp": "2-7-2022"
+    },
+    {
+    "id": 6,
+    "movie_id": 13,
+    "comment": "I found Titanic to be overly sentimental, but the production value was impressive.",
+    "timestamp": "9-9-2021"
+    },
+    {
+    "id": 7,
+    "movie_id": 8,
+    "comment": "The Silence of the Lambs is a masterful psychological thriller. The performances are outstanding.",
+    "timestamp": "1-12-2023"
+    },
+    {
+    "id": 8,
+    "movie_id": 1,
+    "comment": "The Great Escape is a classic war movie. I loved the ensemble cast and the thrilling escape sequences.",
+    "timestamp": "7-22-2022"
+    },
+    {
+    "id": 9,
+    "movie_id": 12,
+    "comment": "I thought Avatar was visually stunning, but the plot was a bit clichéd.",
+    "timestamp": "5-1-2022"
+    },
+    {
+    "id": 10,
+    "movie_id": 3,
+    "comment": "Jurassic Park is a childhood favorite of mine. The special effects still hold up today.",
+    "timestamp": "10-11-2021"
+    },
+    {
+    "id": 11,
+    "movie_id": 10,
+    "comment": "A New Hope is a classic. I loved the sense of adventure and the memorable characters.",
+    "timestamp": "12-20-2022"
+    },
+    {
+    "id": 12,
+    "movie_id": 16,
+    "comment": "The Avengers is a fun and action-packed superhero movie. The ensemble cast has great chemistry.",
+    "timestamp": "7-8-2022"
+    },
+    {
+    "id": 13,
+    "movie_id": 15,
+    "comment": "The Lion King is a classic Disney movie. The animation and music are top-notch.",
+    "timestamp": "3-18-2023"
+    },
+    {
+    "id": 14,
+    "movie_id": 7,
+    "comment": "The Shawshank Redemption is a masterpiece. The story and characters are unforgettable.",
+    "timestamp": "11-29-2021"
+    },
+    {
+    "id": 15,
+    "movie_id": 11,
+    "comment": "The Fellowship of the Ring is an epic adventure."
+    }
+]

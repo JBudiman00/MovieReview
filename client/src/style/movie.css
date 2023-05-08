@@ -1,0 +1,24 @@
+.movieBlock {
+    background-color: #F1F6F9;
+    text-align: center;
+    width: 20%;
+    
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 15px;
+
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+.blockFormat {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.movieTitle {
+    height: 25%;
+}

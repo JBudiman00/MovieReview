@@ -1,108 +1,110 @@
-[{
-"id": 1,
-"name": "The Great Escape",
-"date": "7-4-1963",
-"rating": "PG"
-},
-{
-"id": 2,
-"name": "The Dark Knight",
-"date": "7-18-2008",
-"rating": "PG-13"
-},
-{
-"id": 3,
-"name": "Jurassic Park",
-"date": "6-11-1993",
-"rating": "PG-13"
-},
-{
-"id": 4,
-"name": "Forrest Gump",
-"date": "7-6-1994",
-"rating": "PG-13"
-},
-{
-"id": 5,
-"name": "The Godfather",
-"date": "3-24-1972",
-"rating": "R"
-},
-{
-"id": 6,
-"name": "Pulp Fiction",
-"date": "10-14-1994",
-"rating": "R"
-},
-{
-"id": 7,
-"name": "The Shawshank Redemption",
-"date": "9-23-1994",
-"rating": "R"
-},
-{
-"id": 8,
-"name": "The Silence of the Lambs",
-"date": "2-14-1991",
-"rating": "R"
-},
-{
-"id": 9,
-"name": "The Matrix",
-"date": "3-31-1999",
-"rating": "R"
-},
-{
-"id": 10,
-"name": "Star Wars: Episode IV - A New Hope",
-"date": "5-25-1977",
-"rating": "PG"
-},
-{
-"id": 11,
-"name": "The Lord of the Rings: The Fellowship of the Ring",
-"date": "12-19-2001",
-"rating": "PG-13"
-},
-{
-"id": 12,
-"name": "Avatar",
-"date": "12-18-2009",
-"rating": "PG-13"
-},
-{
-"id": 13,
-"name": "Titanic",
-"date": "12-19-1997",
-"rating": "PG-13"
-},
-{
-"id": 14,
-"name": "Inception",
-"date": "7-16-2010",
-"rating": "PG-13"
-},
-{
-"id": 15,
-"name": "The Lion King",
-"date": "6-15-1994",
-"rating": "G"
-},
-{
-"id": 16,
-"name": "The Avengers",
-"date": "5-4-2012",
-"rating": "PG-13"
-},
-{
-"id": 17,
-"name": "Jaws",
-"date": "6-20-1975",
-"rating": "PG"
-},
-{
-"id": 18,
-"name": "Indiana Jones and the Raiders of the Lost Ark",
-"date": "6-12-1981",
-"rating": "PG"
-}]
+{"movies": 
+    [{
+    "id": 1,
+    "name": "The Great Escape",
+    "date": "7-4-1963",
+    "rating": "PG"
+    },
+    {
+    "id": 2,
+    "name": "The Dark Knight",
+    "date": "7-18-2008",
+    "rating": "PG-13"
+    },
+    {
+    "id": 3,
+    "name": "Jurassic Park",
+    "date": "6-11-1993",
+    "rating": "PG-13"
+    },
+    {
+    "id": 4,
+    "name": "Forrest Gump",
+    "date": "7-6-1994",
+    "rating": "PG-13"
+    },
+    {
+    "id": 5,
+    "name": "The Godfather",
+    "date": "3-24-1972",
+    "rating": "R"
+    },
+    {
+    "id": 6,
+    "name": "Pulp Fiction",
+    "date": "10-14-1994",
+    "rating": "R"
+    },
+    {
+    "id": 7,
+    "name": "The Shawshank Redemption",
+    "date": "9-23-1994",
+    "rating": "R"
+    },
+    {
+    "id": 8,
+    "name": "The Silence of the Lambs",
+    "date": "2-14-1991",
+    "rating": "R"
+    },
+    {
+    "id": 9,
+    "name": "The Matrix",
+    "date": "3-31-1999",
+    "rating": "R"
+    },
+    {
+    "id": 10,
+    "name": "Star Wars: Episode IV - A New Hope",
+    "date": "5-25-1977",
+    "rating": "PG"
+    },
+    {
+    "id": 11,
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "date": "12-19-2001",
+    "rating": "PG-13"
+    },
+    {
+    "id": 12,
+    "name": "Avatar",
+    "date": "12-18-2009",
+    "rating": "PG-13"
+    },
+    {
+    "id": 13,
+    "name": "Titanic",
+    "date": "12-19-1997",
+    "rating": "PG-13"
+    },
+    {
+    "id": 14,
+    "name": "Inception",
+    "date": "7-16-2010",
+    "rating": "PG-13"
+    },
+    {
+    "id": 15,
+    "name": "The Lion King",
+    "date": "6-15-1994",
+    "rating": "G"
+    },
+    {
+    "id": 16,
+    "name": "The Avengers",
+    "date": "5-4-2012",
+    "rating": "PG-13"
+    },
+    {
+    "id": 17,
+    "name": "Jaws",
+    "date": "6-20-1975",
+    "rating": "PG"
+    },
+    {
+    "id": 18,
+    "name": "Indiana Jones and the Raiders of the Lost Ark",
+    "date": "6-12-1981",
+    "rating": "PG"
+    }]
+}

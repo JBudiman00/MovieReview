@@ -4,6 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var cors = require("cors");
+var mysql = require('mysql');
 
 var indexRouter = require('./routes/index');
 var moviesRouter = require('./routes/movies');
@@ -22,7 +23,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
+// app.use('/', indexRouter);
 app.use('/static', express.static('public/javascripts'))
 app.use('/movies', moviesRouter);
 app.use('/comments', commentsRouter)

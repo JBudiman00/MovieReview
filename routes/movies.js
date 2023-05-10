@@ -13,14 +13,15 @@ router.get('/', function(req, res, next) {
       console.log(' Error getting mysql_pool connection: ' + err);
       throw err;
     }
-    sql = 'SELECT HEX(Movie_ID) as Movie_Id, Movie_Name, Director, Rating, Release_Date, Description FROM Movies LIMIT 10 OFFSET ?';
+    // sql = 'SELECT HEX(Movie_ID) as Movie_Id, Movie_Name, Director, Rating, Release_Date, Description FROM Movies LIMIT 10 OFFSET ?';
+    sql = 'SELECT HEX(Movie_ID) as Movie_Id, Movie_Name, Director, Rating, Release_Date, Description FROM Movies';
     connection.query(sql, offset, (err, result) => {
       if (err) {
         console.log("error: ", err);
-        res.send(result);
+        res.send(err);
         return;
       }
-    res.send(result);
+    res.json(result);
     connection.release();
     })
   })

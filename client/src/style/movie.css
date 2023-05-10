@@ -11,6 +11,7 @@
 
     padding-left: 0.5%;
     padding-right: 0.5%;
+    padding-bottom: 10px;
 }
 
 .blockFormat {
@@ -19,6 +20,6 @@
     flex-wrap: nowrap;
 }
 
-.movieTitle {
-    height: 25%;
+.movieBlock:hover{
+    background-color: #9BA4B5;
 }

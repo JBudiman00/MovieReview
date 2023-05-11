@@ -4,9 +4,7 @@ const fs = require('fs');
 const mysql_pool = require('../db/db.jsx')
 
 //Get movie listings
-//Query parameter based on id of movie
 router.get('/', function(req, res, next) {
-  var offset = Number(req.query.page)*10 - 10;
   mysql_pool.getConnection((err, connection) => {
     if(err) {
       connection.release();
@@ -15,7 +13,7 @@ router.get('/', function(req, res, next) {
     }
     // sql = 'SELECT HEX(Movie_ID) as Movie_Id, Movie_Name, Director, Rating, Release_Date, Description FROM Movies LIMIT 10 OFFSET ?';
     sql = 'SELECT HEX(Movie_ID) as Movie_Id, Movie_Name, Director, Rating, Release_Date, Description FROM Movies';
-    connection.query(sql, offset, (err, result) => {
+    connection.query(sql, (err, result) => {
       if (err) {
         console.log("error: ", err);
         res.send(err);

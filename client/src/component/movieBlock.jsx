@@ -11,7 +11,7 @@ export default function MovieBlock(props){
     
     const hello = (i) => {
         //Send to movie specific webpage
-        console.log(i);
+        window.location.href='http://localhost:3000/moviepage/' + i;
     };
 
     return (

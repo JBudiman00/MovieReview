@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback} from 'react'
 import MovieBlock from './component/movieBlock.jsx'
 import './style/main.css'
+import NavBar from './component/navBar.jsx';
 
 const Main = () => {
     const [movieList, setMovie] = useState([]);
@@ -34,6 +35,7 @@ const Main = () => {
 
     return (
         <>
+        <NavBar />
         <h1 style={{color: "#F1F6F9", textAlign: "center"}}>Movie Reviews</h1>
         <div className="buttonDiv">
             <button className = "pageButton" onClick={e => changePage(-1)}>Previous Page</button>

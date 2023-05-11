@@ -1,11 +1,12 @@
-import '../style/navBar.css'
+import '../style/navBar.css';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
         <div className = "navBar">
-            <a href="localhost:3000" className="link" style={{float: "left"}}>Home</a>
-            <a href="localhost:3000" className="link" style={{float: "left"}}>About</a>
-            <a href="localhost:3000" className="link" style={{float: "right"}}>Contact</a>
+            <Link to="/" className="link" style={{float: "left"}}>Home</Link>
+            <Link to="/" className="link" style={{float: "left"}}>About</Link>
+            <Link to="/" className="link" style={{float: "right"}}>Contact</Link>
         </div>
     );
 }

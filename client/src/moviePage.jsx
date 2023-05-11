@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import './style/moviepage.css';
 import CommentBlock from './component/commentBlock';
 import NavBar from './component/navBar.jsx';

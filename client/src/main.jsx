@@ -20,7 +20,7 @@ const Main = () => {
     }
 
     const fetchRequest = useCallback(() => {
-        fetch("http://localhost:9000/movies")
+        fetch("https://moviereviewapi-31eq.onrender.com/movies")
         .then((movieRes) => {
             return movieRes.json();
         })

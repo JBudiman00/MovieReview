@@ -14,8 +14,8 @@ const MoviePage = () => {
     
     useEffect(() => {
         Promise.all([
-            fetch("http://localhost:9000/comments/" + id),
-            fetch("http://localhost:9000/movies/" + id)
+            fetch("https://moviereviewapi-31eq.onrender.com/comments/" + id),
+            fetch("https://moviereviewapi-31eq.onrender.com/movies/" + id)
         ])
         .then(([commentRes, movieRes]) => {
             return Promise.all([commentRes.json(), movieRes.json()]);
@@ -29,7 +29,7 @@ const MoviePage = () => {
     let handleSubmit = async (e) => {
         e.preventDefault();
         try {
-          let res = await fetch("http://localhost:9000/addcomment", {
+          let res = await fetch("https://moviereviewapi-31eq.onrender.com/addcomment", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'

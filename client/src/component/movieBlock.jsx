@@ -1,4 +1,5 @@
 import '../style/movie.css';
+import { Link } from 'react-router-dom';
 import { useState, useEffect} from 'react'
 
 export default function MovieBlock(props){
@@ -9,22 +10,25 @@ export default function MovieBlock(props){
     const release = props.release;
     const desc = props.desc;
     
-    const hello = (i) => {
+    const onClick = (i) => {
         //Send to movie specific webpage
-        window.location.href='http://localhost:3000/moviepage/' + i;
+        //window.location.href='http://localhost:3000/moviepage/' + i;
+        //this.context.router.push('/moviepage/' + i);
     };
 
     return (
-        <div className = "movieBlock" onClick={e => hello(id)}>
-            <div className = "blockFormat">
-                <h2 className = "movieTitle">{movieName}</h2>
-                <p>{director}</p>
-                <p>{release}</p>
-                <p>{desc}</p>
-                <div className = "rating">
-                    <p>{rating}</p>
+        <div className = "movieBlock" >
+            <Link to={'/moviepage/' + id} className='linkClass'>
+                <div className = "blockFormat">
+                    <h2 className = "movieTitle">{movieName}</h2>
+                    <p>{director}</p>
+                    <p>{release}</p>
+                    <p>{desc}</p>
+                    <div className = "rating">
+                        <p>{rating}</p>
+                    </div>
                 </div>
-            </div>
+            </Link>
         </div>
     );
 }
